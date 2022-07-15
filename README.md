@@ -1,3 +1,8 @@
+# Modupe Allen's SQL Portfolio
+
+## Welcome to my SQL portfolio! This code repository contains examples of SQL I've written. Feel free to take a look and reach out if you have any questions: ogunmodupe@yahoo.com
+
+
 --Create a clothing store database
 
 CREATE TABLE Clothing (id INTEGER PRIMARY KEY, name TEXT, price INTEGER, colour TEXT, quantity INTEGER);
@@ -11,7 +16,7 @@ INSERT INTO Clothing VALUES (5, "Skirts", 25, "Purple", 7);
 --display the clothing database.
 SELECT * FROM Clothing;
 
---display price from $15 and above.
+--display price from £15 and above.
 SELECT * FROM Clothing WHERE price >= 15 ORDER BY price;
 
 --dispaly the total sum (quantity) of all the clothing sold.

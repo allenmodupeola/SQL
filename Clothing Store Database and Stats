@@ -1,5 +1,5 @@
-# SQL
-SQL Portfolio
+--Create a clothing store database
+
 CREATE TABLE Clothing (id INTEGER PRIMARY KEY, name TEXT, price INTEGER, colour TEXT, quantity INTEGER);
 
 INSERT INTO Clothing VALUES (1, "Blouse", 20, "Green", 4);

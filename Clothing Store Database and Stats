@@ -16,3 +16,4 @@ SELECT * FROM Clothing WHERE price >= 15 ORDER BY price;
 
 --dispaly the total sum (quantity) of all the clothing sold.
 SELECT SUM(quantity) FROM Clothing;
+

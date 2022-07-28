@@ -3,22 +3,4 @@
 ## Welcome to my SQL portfolio! This code repository contains examples of SQL I've written. Feel free to take a look and reach out if you have any questions: ogunmodupe@yahoo.com
 
 
---Create a clothing store database
-
-CREATE TABLE Clothing (id INTEGER PRIMARY KEY, name TEXT, price INTEGER, colour TEXT, quantity INTEGER);
-
-INSERT INTO Clothing VALUES (1, "Blouse", 20, "Green", 4);
-INSERT INTO Clothing VALUES (2, "Jeans", 27, "Blue", 5);
-INSERT INTO Clothing VALUES (3, "leggings", 15, "Black", 6);
-INSERT INTO Clothing VALUES (4, "Gowns", 35, "Yellow", 8);
-INSERT INTO Clothing VALUES (5, "Skirts", 25, "Purple", 7);
-
---display the clothing database.
-SELECT * FROM Clothing;
-
---display price from £15 and above.
-SELECT * FROM Clothing WHERE price >= 15 ORDER BY price;
-
---dispaly the total sum (quantity) of all the clothing sold.
-SELECT SUM(quantity) FROM Clothing;
 
